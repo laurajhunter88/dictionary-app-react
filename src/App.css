@@ -1,1 +1,17 @@
+.container {
+  border: 1px solid black;
+  background-color: white;
+  padding: 30px;
+  margin-top: 30px;
+}
 
+.App-header {
+  text-align: center;
+  color: #124899;
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  color: #0b3068;
+}
