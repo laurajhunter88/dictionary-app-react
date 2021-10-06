@@ -11,7 +11,33 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Laura Hunter, hosted on Netlify</footer>
+        <footer>
+          <a
+            className="github-link"
+            target="-blank"
+            href="https://github.com/laurajhunter88/dictionary-app-react"
+          >
+            Open-Source
+          </a>{" "}
+          Code by
+          <a
+            className="linkedin-link"
+            target="-blank"
+            href="https://www.linkedin.com/in/laurajaynehunter/"
+          >
+            {" "}
+            Laura Hunter
+          </a>
+          , hosted on{" "}
+          <a
+            className="netlify-link"
+            target="-blank"
+            href="https://vigorous-swirles-6bc761.netlify.app"
+          >
+            Netlify
+          </a>
+          .
+        </footer>
       </div>
     </div>
   );
