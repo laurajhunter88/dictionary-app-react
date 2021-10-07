@@ -5,13 +5,14 @@ export default function Phonetics(props) {
   return (
     <div className="Phonetics">
       <h3>{props.phonetic.text}</h3>
-      <a
+      <i
         class="fas fa-microphone"
         href={props.phonetic.audio}
         target="_blank"
         rel="noreferrer"
         title="microphone icon"
-      ></a>
+        alt="phonetics"
+      ></i>
     </div>
   );
 }
