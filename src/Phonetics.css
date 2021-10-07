@@ -1,0 +1,16 @@
+h3 {
+  opacity: 0.7;
+  color: #1964d6;
+  font-weight: normal;
+  display: inline-block;
+}
+
+a {
+  margin-left: 10px;
+  color: #124899;
+}
+
+.Phonetics {
+  justify-content: space-evenly;
+  text-align: center;
+}
