@@ -10,6 +10,10 @@ i {
   color: #124899;
 }
 
+i:hover {
+  color: #1964d6;
+}
+
 .Phonetics {
   justify-content: space-evenly;
   text-align: center;
