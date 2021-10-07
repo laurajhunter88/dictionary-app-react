@@ -4,15 +4,15 @@ import "./Phonetics.css";
 export default function Phonetics(props) {
   return (
     <div className="Phonetics">
-      <h3>{props.phonetic.text}</h3>
-      <i
-        class="fas fa-microphone"
+      <a
         href={props.phonetic.audio}
         target="_blank"
         rel="noreferrer"
-        title="microphone icon"
-        alt="phonetics"
-      ></i>
+        title="phonetics icon"
+      >
+        <i class="fas fa-microphone"></i>
+      </a>
+      <h3>{props.phonetic.text}</h3>
     </div>
   );
 }
