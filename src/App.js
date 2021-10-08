@@ -15,6 +15,7 @@ export default function App() {
           <a
             className="github-link"
             target="-blank"
+            rel="noreferrer"
             href="https://github.com/laurajhunter88/dictionary-app-react"
           >
             Open-Source
@@ -23,6 +24,7 @@ export default function App() {
           <a
             className="linkedin-link"
             target="-blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/laurajaynehunter/"
           >
             {" "}
@@ -32,6 +34,7 @@ export default function App() {
           <a
             className="netlify-link"
             target="-blank"
+            rel="noreferrer"
             href="https://vigorous-swirles-6bc761.netlify.app"
           >
             Netlify
