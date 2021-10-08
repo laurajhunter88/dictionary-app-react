@@ -26,10 +26,14 @@ section {
   border-radius: 10px;
   box-shadow: 3px 3px 20px #a7c5ef;
   margin-bottom: 30px;
+  max-width: 65%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .form-section {
-  max-width: 60%;
+  max-width: 40%;
   display: block;
   margin: 0 auto;
   margin-bottom: 60px;
