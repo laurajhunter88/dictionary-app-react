@@ -11,16 +11,18 @@ export default function Meanings(props) {
           <div key={index}>
             <div className="container">
               <div className="row">
-                <div className="col-6">
-                  {definition.definition}
-                  <br />
-                  <em> {definition.example}</em>
+                <div className="col-6 definition">{definition.definition}</div>
+                <div className="col-6 example">
+                  <em>{definition.example}</em>
                 </div>
               </div>
-              <div className="-6">
-                <Synonyms synonyms={definition.synonyms} />
+              <div className="row">
+                <div className="col-12">
+                  <Synonyms synonyms={definition.synonyms} />
+                </div>
               </div>
             </div>
+            <hr />
           </div>
         );
       })}

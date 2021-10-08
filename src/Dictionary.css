@@ -8,7 +8,10 @@ form {
 }
 
 input {
-  box-shadow: 3px 3px 15px #1964d6;
+  box-shadow: 0px 10px 10px rbg(0 0 0 / 10%);
+  width: 80%;
+  border-radius: 6px;
+  text-align: center;
 }
 
 .hint {
@@ -21,6 +24,13 @@ section {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 3px 3px 10px #1964d6;
+  box-shadow: 3px 3px 20px #a7c5ef;
+  margin-bottom: 30px;
+}
+
+.form-section {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
