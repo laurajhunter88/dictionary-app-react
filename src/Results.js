@@ -5,7 +5,6 @@ import Phonetics from "./Phonetics";
 
 export default function Results(props) {
   if (props.results) {
-    console.log(props.results.phonetics);
     return (
       <div className="Results">
         <section>
